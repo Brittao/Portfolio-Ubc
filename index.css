@@ -1,0 +1,286 @@
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+
+.background{
+    
+    background-size:cover;
+    background-position-x: 100px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(lvechico.png);
+    
+}
+
+
+
+
+   
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+span{
+    color: #ff0000  ;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+
+nav ul li a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title{
+    text-align: center;
+    
+    } 
+
+
+
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.Main span{
+    color:#ff0000;
+}
+
+h1{
+    color: #ff0000;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+
+h4{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+
+}
+
+h3{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.background-color-Sobre{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.background-color-Sobre img{
+    width: 430px;
+    height: auto;
+}
+
+.Text-sobre{
+    width: 550px;
+  }
+
+.main-sobre{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1130px;
+   margin: 0 auto;
+}
+
+
+
+.Text-sobre h2{
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.Text-sobre h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-variant:initial;
+}
+
+.Text-sobre p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+   }
+
+
+
+.Container-serviços{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #fff;
+    font-size: 35px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    flex-wrap:initial;
+    margin: 20px;
+    
+}
+
+.Card{
+    background: #191919;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    background-image: url(fotocard1.png);
+    background-position:center;
+    background-position-y: 1px;
+    background-position-x: -60px;
+   
+    
+    
+}
+.Card2{
+    background: #191919;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    background-image: url(fotopreto.png);
+    
+    background-position:center;
+    background-position-y: 1px;
+    background-position-x: -250px;
+    
+}
+    .Card1{
+        background: #191919;
+        height: 365px;
+        width: 335px;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align:  center;
+        background-image: url(lvechico.png);
+        background-position:center;
+    background-position-y: 1px;
+    background-position-x: -250px;
+
+    }
+
+
+h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.texto-caixa{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+}
+
+footer h6{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+
+    
+
+
+footer img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align:center ;
+
+    
+}
+
+.Redes-sociais{
+    display: flex;
+    margin: 40px;
+   
+    
+}
+
+
+.final{
+    color: white;
+    font-size: small;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
